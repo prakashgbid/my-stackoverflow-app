@@ -9,6 +9,9 @@
     "test:watch": "npm run test -- --watch",
     "start": "npm-run-all --parallel build test:watch"
   },
+  "babel": {
+    "presets": ["react", "es2015", "stage-1"]
+  },
   "author": "prakash tiwari",
   "license": "ISC",
   "devDependencies": {
